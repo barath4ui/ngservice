@@ -1,0 +1,12 @@
+<div class="herosWrap">
+    <h1>Heros Local</h1>
+    
+    <ul class="heroslist">
+        <li *ngFor="let hero of herosData">
+           <div class="comics-wrap" >
+                <p><span>Name :</span><br/><b> {{hero.name}}</b></p>
+                <p><span>First_appearance :</span> <br/>{{hero.first_appearance}}</p>
+            </div>
+        </li>
+    </ul>
+    </div>

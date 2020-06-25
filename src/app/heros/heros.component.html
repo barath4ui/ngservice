@@ -1,0 +1,13 @@
+<div class="herosWrap">
+<h1>Heros</h1>
+
+<ul class="heroslist">
+    <li *ngFor="let hero of herosData">
+       <div class="comics-wrap" >
+            <p><span>Name</span> <span>:</span>  <b> {{hero.name}}</b></p>
+            <p><span>Comics</span> <span>:</span>  {{hero.publisher}}</p>
+            <p><span>Comic_Name</span> <span>:</span> {{hero.comic_name}}</p>
+        </div>
+    </li>
+</ul>
+</div>
